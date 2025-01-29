@@ -56,12 +56,12 @@ st.markdown(
 )
 
 # Streamlit interface
-st.title("Vídeos downloader: baixe vídeos do YouTube, Instagram e Facebook!")
+st.title("Vídeos downloader: baixe vídeos do TikTok, YouTube, Instagram e Facebook!")
 
 st.text("Insira URL do vídeo que deseja baixar abaixo:")
 
 # Entrada de URL do vídeo
-url = st.text_input("URL do vídeo (YouTube, Instagram ou Facebook):")
+url = st.text_input("URL do vídeo (TikTok, YouTube, Instagram ou Facebook):")
 
 # Botão para baixar o vídeo
 if st.button('Baixar vídeo'):
