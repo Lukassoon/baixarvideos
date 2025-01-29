@@ -22,7 +22,7 @@ def generate_unique_filename(url):
     return f"video_baixado_{url_hash}.mp4"
 
 # Personalização do tema com cor verde para fundo e vermelho para botões
-st.set_page_config(page_title="Baixar Vídeo", page_icon="🎥")
+st.set_page_config(page_title="Vídeos downloader", page_icon="🎥")
 st.markdown(
     """
     <style>
