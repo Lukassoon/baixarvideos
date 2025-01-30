@@ -56,30 +56,8 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-# Adicionando o script do Google AdSense para anúncios
-st.markdown(
-    """
-    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3361766067874035"
-     crossorigin="anonymous"></script>
-    <!-- Anuncio do site Videos -->
-    <ins class="adsbygoogle"
-         style="display:block"
-         data-ad-client="ca-pub-3361766067874035"
-         data-ad-slot="9631220694"
-         data-ad-format="auto"
-         data-full-width-responsive="true"></ins>
-    <script>
-         (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
-    """, unsafe_allow_html=True
-)
+st.components.v1.iframe(src="adsense.html", width=720, height=90)
 
-st.markdown (
-    """ 
-     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3361766067874035"
-     crossorigin="anonymous"></script>
-    """, unsafe_allow_html=True
-)
 # Streamlit interface
 st.title("Vídeos downloader: baixe vídeos do TikTok, YouTube, Instagram e Facebook!")
 
