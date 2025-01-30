@@ -74,6 +74,12 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
+st.markdown (
+    """ 
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3361766067874035"
+     crossorigin="anonymous"></script>
+    """, unsafe_allow_html=True
+)
 # Streamlit interface
 st.title("Vídeos downloader: baixe vídeos do TikTok, YouTube, Instagram e Facebook!")
 
@@ -109,6 +115,7 @@ if st.button('Baixar vídeo'):
             st.error(f"Ocorreu um erro ao tentar baixar o vídeo: {e}")
     else:
         st.error("Por favor, insira uma URL válida para o vídeo.")
+
 
 
 
