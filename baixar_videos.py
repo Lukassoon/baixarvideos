@@ -56,7 +56,7 @@ st.markdown(
     """, unsafe_allow_html=True
 )
 
-st.components.v1.iframe(src="adsense.html", width=720, height=90)
+
 
 # Streamlit interface
 st.title("Vídeos downloader: baixe vídeos do TikTok, YouTube, Instagram e Facebook!")
